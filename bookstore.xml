@@ -1,0 +1,51 @@
+<?xml version="1.0"?> 
+<!DOCTYPE bookstore [ 
+<!ELEMENT bookstore (book)> 
+<!ELEMENT book (bookname,bookprice,bookauthor,booknumber,pages)> 
+<!ELEMENT bookname (#PCDATA)> 
+<!ELEMENT bookprice (#PCDATA)> 
+<!ELEMENT bookauthor (#PCDATA)> 
+<!ELEMENT booknumber (#PCDATA)> 
+ 
+<!ELEMENT pages (#PCDATA)> 
+
+]> 
+
+
+<bookstore>
+<book>
+<bookname> Python Programming Book</bookname>
+<bookauthor>Guido van Rossum</bookauthor>
+<bookprice>$500</bookprice>
+<ISBN>23456</ISBN>
+<pages>500</pages>
+</book>
+<book>
+<bookname> c Programming Book</bookname>
+<bookauthor>Dennis Ritchie</bookauthor>
+<bookprice>$300</bookprice>
+<ISBN>76156</ISBN>
+<pages>180</pages>
+</book>
+<book>
+<bookname> c++ Programming Book</bookname>
+<bookauthor>Bjarne Stroustrup</bookauthor>
+<bookprice>$200</bookprice>
+<ISBN>98456</ISBN>
+<pages>300</pages>
+</book>
+<book>
+<bookname> Java Programming Book</bookname>
+<bookauthor>James Gosling</bookauthor>
+<bookprice>$500</bookprice>
+<ISBN>12456</ISBN>
+<pages>200</pages>
+</book>
+<book>
+<bookname> html language book</bookname>
+<bookauthor>Tim Berners Lee</bookauthor>
+<bookprice>$400</bookprice>
+<ISBN>73456</ISBN>
+<pages>300</pages>
+</book>
+</bookstore>
